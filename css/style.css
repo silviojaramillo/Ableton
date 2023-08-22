@@ -20,6 +20,7 @@ body{
 }
 nav{
     padding: 4px;
+    margin-right: 15px;
     border-bottom: solid 2px rgb(235, 235, 235);
 }
 
@@ -53,7 +54,7 @@ nav ol .nav-home{
     text-decoration: none;
 }
 
-nav ol li a{
+nav ol li a, .nav-second ul li a{
     color: black;
 }
 
@@ -61,11 +62,11 @@ nav ol li a:hover{
     color: var(--color-2);
 }
 
-nav ol li .selected{
+nav ol li .selected, .nav-second ul li .selected{
     color: var(--color-2);
 }
 
-nav ol li, nav ul li{
+nav ol li, nav ul li, .nav-second ul li{
     margin-inline-end: 15px;
     margin-inline-start: 15px;
 }
@@ -75,7 +76,7 @@ nav ul{
     list-style: none;
     font-weight: 600;
     margin-left: auto;
-    margin-right: 35px;
+    margin-right: 25px;
 }
 
 nav ul li .try-live-ff{
@@ -85,5 +86,12 @@ nav ul li .try-live-ff{
 
 nav ul li .account, nav ul li .log-out{
     font-size: 15px;
+    color: black;
+}
+
+.nav-second ul li{
+    list-style: none;
+    display: inline-flex;
+    font-weight: 600;
     color: black;
 }
