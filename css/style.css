@@ -19,8 +19,8 @@ body{
     font-family: 'Nunito';
 }
 nav{
-    background-color: beige;
-    padding: 3px;
+    padding: 4px;
+    border-bottom: solid 2px rgb(235, 235, 235);
 }
 
 nav div{
@@ -36,8 +36,8 @@ nav .nav-home{
 }
 
 nav div .nav-home img{
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     display: inline-flex;
 }
 
@@ -46,19 +46,44 @@ nav ol{
     font-weight: 600;
     display: inline-flex;
     padding-inline-start: 0;
+    font-size: 18px;
 }
 
 nav ol .nav-home{
     text-decoration: none;
 }
 
+nav ol li a{
+    color: black;
+}
+
+nav ol li a:hover{
+    color: var(--color-2);
+}
+
+nav ol li .selected{
+    color: var(--color-2);
+}
+
 nav ol li, nav ul li{
-    margin-inline-end: 10px;
-    margin-inline-start: 10px;
+    margin-inline-end: 15px;
+    margin-inline-start: 15px;
 }
 
 nav ul{
     display: inline-flex;
     list-style: none;
     font-weight: 600;
+    margin-left: auto;
+    margin-right: 35px;
+}
+
+nav ul li .try-live-ff{
+    color: var(--color-6);
+    font-size: 18px;
+}
+
+nav ul li .account, nav ul li .log-out{
+    font-size: 15px;
+    color: black;
 }
