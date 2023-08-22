@@ -95,3 +95,17 @@ nav ul li .account, nav ul li .log-out{
     font-weight: 600;
     color: black;
 }
+
+
+main .main-title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-title .img-primary{
+    width: 79%;
+    height: 450px;
+    margin-bottom: 75px;
+}
