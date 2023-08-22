@@ -59,11 +59,11 @@ nav ol li a, .nav-second ul li a{
 }
 
 nav ol li a:hover{
-    color: var(--color-2);
+    color: orange;
 }
 
 nav ol li .selected, .nav-second ul li .selected{
-    color: var(--color-2);
+    color: orange;
 }
 
 nav ol li, nav ul li, .nav-second ul li{
