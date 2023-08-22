@@ -20,6 +20,11 @@ nav{
     padding: 3px;
 }
 
+nav a img{
+    height: 3%;
+    width: 3%;
+}
+
 nav ol{
     list-style: none;
     font-weight: 600;
