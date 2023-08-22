@@ -8,6 +8,10 @@
     --color-6: #0000ff;
 }
 
+a{
+    text-decoration: none;
+}
+
 body{
     height: 100%;
     margin: 0;
@@ -16,20 +20,45 @@ body{
 }
 nav{
     background-color: beige;
-    padding: auto;
     padding: 3px;
 }
 
-nav a img{
-    height: 3%;
-    width: 3%;
+nav div{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    align-content: start;
+}
+
+nav .nav-home{
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+nav div .nav-home img{
+    height: 30px;
+    width: 30px;
+    display: inline-flex;
 }
 
 nav ol{
     list-style: none;
     font-weight: 600;
+    display: inline-flex;
+    padding-inline-start: 0;
 }
 
-nav ol a{
+nav ol .nav-home{
     text-decoration: none;
+}
+
+nav ol li, nav ul li{
+    margin-inline-end: 10px;
+    margin-inline-start: 10px;
+}
+
+nav ul{
+    display: inline-flex;
+    list-style: none;
+    font-weight: 600;
 }
