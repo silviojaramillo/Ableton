@@ -98,14 +98,29 @@ nav ul li .account, nav ul li .log-out{
 
 
 main .main-title{
+    width: 79%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-title .title{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-main .main-title .img-primary{
-    width: 79%;
+main .main-title{
+    background-image: url('../assets/img/img-primary.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 450px;
     margin-bottom: 75px;
+}
+
+main .main-title .title h1{
+    color: var(--color-2);
+    font-size: 4.5rem;
 }
