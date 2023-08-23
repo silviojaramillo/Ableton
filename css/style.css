@@ -184,18 +184,41 @@ main .section-1 .s2 img{
 main .section-1{
     height: 660px;
     display: grid;
-    grid-template-columns: [line1] 10% 4fr [line6] 10% [line7] 10% [line8] 10% [line9] 10% [line10] 10%;
+    grid-template-columns: [line1] 10% [line2] 10% [line3] 10% [line4] 10% [line5] 10% [line6] 10% [line7] 10% [line8] 10% [line9] 10% [line10] 10%;
     grid-template-rows: [line1] 20% [line2] 20% [line3] 20% [line4] 20% [line5] 20%;
 }
 
 main .section-1 .s1{
-    grid-row-start: 2;
-    grid-row-end: 4;
-    width: 42%;
+    display: flex;
+    width: 100%;
     height: 100%;
-    object-fit: contain;
-    background-color: orange;
-    /* display: flex;
+    grid-column: 2/5;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    object-fit: cover;
+    overflow: visible;
+}
+
+main .section-1 .s2{
+    background-color: var(--color-1);
+    display: flex;
+    width: 100%;
+    height: 100%;
+    grid-column-start: 4;
+    grid-column-end: end;
+    grid-row-start: 1;
+    grid-row-end: 6;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
+    z-index: -1;
+}
+
+main .section-1 .element-s2{
+    display: flex;
+    justify-content: right;
+    width: 50%;
+    height: 35%;
+    grid-column-start: 6;
+    grid-column-end: 10;
+    grid-row: 2/5;
 }
