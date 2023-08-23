@@ -151,26 +151,30 @@ main .section-1{
     width: 100%;
     height: 650px;
     background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main .section-1 .s1{
     width: 42%;
-    background-color: green;
+    height: 65%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
 
 main .section-1 .s1 img{
-    width: 70%;
-    height: 75%;
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    align-content: end;
-    flex-wrap: wrap;
+    width: 75%;
+    height: 100%;
 }
 
 main .section-1 .s2{
     width: 58%;
     background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main .section-1 .s2 img{
